@@ -1,7 +1,6 @@
-import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Landing from "../../screens/Landing/Landing";
 import PageHolder from "../../screens/pageHolder/PageHolder";
+import Landing from "../../screens/Landing/Landing";
 import ArticleAndNews from "../../screens/articleAndNews/AeticleAndNews";
 import CourseDetail from "../../screens/coursedetalis/coursedetalis";
 import CoursesHolder from "../../screens/CoursesHolder/CoursesHolder";
