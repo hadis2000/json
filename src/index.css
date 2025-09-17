@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+  font-family: "estedadM";
+  src: local("estedadM"),
+   url("./assets/fonts/Estedad-Medium.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "estedadTH";
+    src: local("estedadTH"),
+     url("./assets/fonts/Estedad-Thin.ttf") format("truetype");
+    }
+    @font-face {
+      font-family: "estedadBol";
+      src: local("estedadBol"),
+       url("./assets/fonts/Estedad-Bold.ttf") format("truetype");
+      }
+      @font-face {
+        font-family: "estedadL";
+        src: local("estedadL"),
+         url("./assets/fonts/Estedad-Light.ttf") format("truetype");
+        }
+  @font-face {
+    font-family: "lale";
+    src: local("lale"),
+     url("./assets/fonts/Lalezar-Regular.ttf") format("truetype");
+    }

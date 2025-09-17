@@ -1,0 +1,38 @@
+.custom{
+    width: 44px;
+    height: 44px;
+    background: #fff ;
+    color: #004458 ;
+    padding: 10px 15px;
+    list-style: none;
+    font-family: 'estedadBol';
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.custom:hover{
+    background: #004458 ;
+    color: #fff ;
+}
+.activ{
+    width: 44px;
+    height: 44px;
+    background: #004458;
+    color: #fff;
+    padding: 10px 15px;
+    list-style: none;
+    font-family: 'estedadBol';
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.customArrow{
+    color: #004458 ;
+    padding: 10px 15px;
+    list-style: none;
+    font-family: 'estedadBol';
+    font-weight: 800;
+    font-size: 25px;
+}

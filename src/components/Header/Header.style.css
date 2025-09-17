@@ -1,0 +1,118 @@
+.link_Landing {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  position: relative;
+}
+.link_Landing:hover {
+  color: #fff;
+  background-color: #004458;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+.bambo,
+.bambo:hover {
+  font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+.landing_header {
+  font-size: 18px;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.iconHeader {
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0 5px;
+}
+
+.LocationCustom {
+  border-bottom: 3px solid #fff;
+  border-radius: 5px;
+}
+
+/* cart */
+.iconUser {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin: 0 10px;
+}
+.Cart_Landing {
+  color: #fff;
+  position: relative;
+}
+.Cart_toggel {
+  color: #fff !important;
+}
+.badge_cart {
+  background: #004458;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  font-size: 12px;
+  position: absolute;
+  top: 19px;
+  right: 5px;
+}
+/* cart header items */
+.cartItemH {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+  padding: 5px 0;
+  border-bottom: 1px solid #004458;
+}
+.cartItemImgH {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.cartItemDetail {
+  display: flex;
+  flex: 1;
+  padding: 0 20px;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+  .link_Landing {
+    color: #004458;
+    font-family: "estedadM";
+  }
+  .iconUser {
+    border: 2px solid #004458;
+  }
+  .link_Landing:hover > .iconUser {
+    border: 2px solid #fff;
+  }
+  .LocationCustom {
+    border-bottom: 3px solid #004458;
+    border-radius: 5px;
+  }
+  /* cart */
+  .Cart_Landing:hover > .Cart_toggel {
+    background: #004458;
+    color: #fff !important;
+  }
+  .Cart_toggel {
+    color: #004458 !important;
+  }
+  .badge_cart {
+    background: none;
+    color: #004458;
+    font-size: 15px;
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+  .Cart_Landing:hover > .Cart_toggel > .badge_cart {
+    color: #fff;
+  }
+}
